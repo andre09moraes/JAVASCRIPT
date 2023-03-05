@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de advinhação</title>
+</head>
+<body>
+    <h1>Jogo de advinhação</h1>
+
+    <script>
+
+        var numeroSecreto = parseInt(Math.random() * 1001);
+        
+        while (chute != numeroSecreto) {
+            var chute = prompt('digite um número entre 0 e 1000')
+            
+            if(chute == numeroSecreto){
+                alert('Acertou')
+            }
+            
+            else if(chute > numeroSecreto){
+                alert('Errou, o número é menor')
+            }
+
+            else if(chute < numeroSecreto){
+                alert('Errou, o número é maior')
+            }
+
+        }
+    </script>
+</body>
+</html>
