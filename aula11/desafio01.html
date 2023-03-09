@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Seu país é?</h1>
+    <input type="text" name="p" id="ip">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+        function verificar() {
+            var txtp = document.querySelector('input#ip')
+            var res = document.querySelector('#res')
+            var p = (txtp.value)
+            // res.innerHTML = `Seu país atual é ${txtp}` (não funciona está linha.)
+            if (p == 'Brasil') {
+                res.innerHTML = `Você é Brasileiro`
+            } else {
+                res.innerHTML = `Você é estrangeiro`
+            }
+        }
+    </script>
+
+</body>
+</html>
