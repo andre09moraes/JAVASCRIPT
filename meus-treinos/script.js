@@ -5,15 +5,14 @@ function calcular() {
 
     var imc = peso / altura ** 2
     if (imc < 18.5){
-        res.innerHTML = 'abaixo do peso'
+        res.innerHTML = 'Abaixo do peso'
     } else if (imc < 25) {
-        res.innerHTML = 'no peso ideal'
+        res.innerHTML = 'No peso ideal'
     } else if (imc < 29) {
-        res.innerHTML = 'acima no peso'
+        res.innerHTML = 'Acima no peso'
     } else if (imc < 40) {
         res.innerHTML = 'Obesidade I'
     } else {
         res.innerHTML = 'Obesidade II'
     }
-
 }
