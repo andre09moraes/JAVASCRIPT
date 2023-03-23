@@ -14,6 +14,7 @@ main {
     border-radius: 10px;
     margin: auto;
     padding: 15px;
+    box-shadow: 5px 8px 10px black;
 }
 
 #flista {
