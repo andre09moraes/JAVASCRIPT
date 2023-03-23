@@ -8,12 +8,12 @@ h1 {
     text-align: center;
 }
 
-div {
+main {
     background-color: white;
     width: 500px;
     border-radius: 10px;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
 }
 
 #flista {
