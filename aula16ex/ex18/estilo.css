@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(67, 118, 160);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+#flista {
+    width: 150px;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
